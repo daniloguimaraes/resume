@@ -1,27 +1,93 @@
 import React, { Component } from 'react';
-import { I18n, Trans } from 'react-i18next';
+import { Button } from 'react-bootstrap';
+import { I18n } from 'react-i18next';
+import Education from './education/Education.js';
+import Professional from './professional/Professional.js';
+
 import logo from './logo.svg';
+import Typography from "typography";
+import moragaTheme from "typography-theme-moraga";
+import WebFont from "webfontloader";
 import './App.css';
+
+WebFont.load({
+  google: {
+    families: ["Source Sans Pro", "sans-serif"]
+  }
+});
+
+moragaTheme.baseFontSize = "18px";
+moragaTheme.baseLineHeight = 1.56;
+moragaTheme.baseScaleRatio = 2;
+moragaTheme.headerWeight = 200;
+moragaTheme.headerGrayValue = "15%";
+moragaTheme.bodyWeight = 400;
+moragaTheme.bodyBoldWeight = 700;
+moragaTheme.bodyGray = "30%";
+
+const typography = new Typography(moragaTheme);
+
+// Or insert styles directly into the <head> (works well for client-only
+// JS web apps.
+typography.injectStyles();
 
 class App extends Component {
   render() {
+    
+
     return (
       <I18n ns="translations">
         {
           (t, { i18n }) => (
             <div className="App">
-              <div className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h2>{t('education.title')}</h2>
-                <button onClick={() => i18n.changeLanguage('pt-BR')}>pt-BR</button>
-                <button onClick={() => i18n.changeLanguage('en')}>en</button>
+
+              <p className="printOnly">
+                {t('general.print')}: https://daniloguimaraes.github.io/resume
+              </p>
+
+              <div class="language-bar">
+                <Button onClick={() => i18n.changeLanguage('pt-BR')}>pt-BR</Button>
+                <Button onClick={() => i18n.changeLanguage('en')}>en</Button>
               </div>
-              <div className="App-intro">
-                <Trans i18nKey="education.ufg">
-                  To get started, edit <code>src/App.js</code> and save to reload.
-                </Trans>
-              </div>
-              <div>{t('description.part2')}</div>
+
+              <h1>Danilo Guimarães Justino Lemes</h1>
+
+              
+
+              <blockquote>
+                <p>
+                  {t('personal.address.title')} {t('')} 
+                  <br/>
+                  E-mail: <a href="mailto:guimaraes.djl@gmail.com">guimaraes.djl@gmail.com</a> 
+                  <br/>
+                  Github: <a href="https://github.com/daniloguimaraes">daniloguimaraes</a>
+                  <br/>
+                  LinkedIn: <a href="">Danilo Guimarães</a>
+                </p>
+              </blockquote>
+             
+              <img src={logo} className="App-logo" alt="logo" />
+ 
+
+              <Education i18n = {i18n}/>
+            
+              <br/>
+
+              <Professional i18n = {i18n} />
+
+              <br/>
+             
+              <div>
+                <h2>{t('qualifications.title')}</h2>
+                
+                <ul>
+                  <li>{t('qualifications.props.0')}</li>
+                  <li>{t('qualifications.props.1')}</li>
+
+                </ul>
+              </div>  
+             
+              
             </div>
           )
         }
