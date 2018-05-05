@@ -3,13 +3,8 @@ import { I18n, Trans } from 'react-i18next';
 
 class Education extends Component {
 
-    /*constructor(props) {
-        super(props);
-    }*/
 
     render() {
-
-        
         return (
             <I18n ns="translations"> 
             {

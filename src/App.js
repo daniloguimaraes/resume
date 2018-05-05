@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { I18n } from 'react-i18next';
 import Education from './education/Education.js';
 import Professional from './professional/Professional.js';
+import Qualifications from './qualifications/Qualifications';
 
 import logo from './logo.svg';
 import Typography from "typography";
@@ -77,15 +78,7 @@ class App extends Component {
 
               <br/>
              
-              <div>
-                <h2>{t('qualifications.title')}</h2>
-                
-                <ul>
-                  <li>{t('qualifications.props.0')}</li>
-                  <li>{t('qualifications.props.1')}</li>
-
-                </ul>
-              </div>  
+              <Qualifications i18n = {i18n} />
              
               
             </div>

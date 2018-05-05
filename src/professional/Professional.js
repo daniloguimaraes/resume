@@ -3,10 +3,6 @@ import { I18n } from 'react-i18next';
 
 class Professional extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return(
             <I18n ns="translations"> 
