@@ -1,15 +1,45 @@
 {
-  "address" : {
-      "zipCode" : "CEP"
+  "general" : {
+    "print": "Este curriculo pode ser encontrado em"
   },
+
+  "personal": {
+    "address" : {
+      "title" : "Goiânia, GO - Brasil",
+
+      "zipCode" : "CEP"
+    }
+  },
+
   "education" : {
     "title" : "Formação Acadêmica",
-    "ufg" : "Universidade Federal de Goiás",
-    "graduation" : "Bacharelado em Engenharia de Software",
-    "alfa" : "UNIALFA - Centro Universitário Alves Faria",
-    "postGraduation" : "Pós-Graduação em Arquitetura e Engenharia de Software"
+    
+    "graduation" : {
+      "title" : "Bacharelado em Engenharia de Software",
+      "institution" : "Universidade Federal de Goiás",
+      "startYear": 2009,
+      "endYear" : 2014
+    },
+    
+    "postGraduation" : {
+      "title" : "Pós-Graduação em Arquitetura e Engenharia de Software",
+      "institution" : "UNIALFA - Centro Universitário Alves Faria"
+    }
   },
-  "experience" : {
+
+  "professional" : {
+    "title" : "Experiência profissional",
+    "experience" : {
       "oobj" : "Oobj Tecnologia da Informação"
+    }
+  },
+
+  "qualifications" : {
+    "title" : "Qualificações",
+    "props" : [
+      "quali 1",
+      "quali 2",
+      "quali 3"
+    ]
   }
 }
