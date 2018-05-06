@@ -1,6 +1,7 @@
 {
   "general" : {
-    "print" : "This resume can be found here"
+    "thisResumeCanBeFound" : "This resume can be found here",
+    "print" : "Print"
   },
 
   "personal": {
@@ -33,7 +34,7 @@
   "qualifications" :  {
     "title" : "Qualifications",
     "props": [
-      "quali 1",
+      "Over 7 years of proven experience in *Java* platform",
       "quali 2",
       "quali 3"
     ]

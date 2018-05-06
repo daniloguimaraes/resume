@@ -1,6 +1,7 @@
 {
   "general" : {
-    "print": "Este curriculo pode ser encontrado em"
+    "thisResumeCanBeFound": "Este curriculo pode ser encontrado em",
+    "print" : "Imprimir"
   },
 
   "personal": {

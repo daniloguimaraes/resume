@@ -4,6 +4,7 @@ import { I18n } from 'react-i18next';
 import Education from './education/Education.js';
 import Professional from './professional/Professional.js';
 import Qualifications from './qualifications/Qualifications';
+import Toolbar from './toolbar/Toolbar';
 
 import logo from './logo.svg';
 import Typography from "typography";
@@ -35,7 +36,7 @@ typography.injectStyles();
 class App extends Component {
   render() {
     
-
+    console.log('hello, computer', I18n);
     return (
       <I18n ns="translations">
         {
@@ -43,13 +44,10 @@ class App extends Component {
             <div className="App">
 
               <p className="printOnly">
-                {t('general.print')}: https://daniloguimaraes.github.io/resume
+                {t('general.thisResumeCanBeFound')}: https://daniloguimaraes.github.io/resume
               </p>
 
-              <div class="language-bar">
-                <Button onClick={() => i18n.changeLanguage('pt-BR')}>pt-BR</Button>
-                <Button onClick={() => i18n.changeLanguage('en')}>en</Button>
-              </div>
+              <Toolbar i18n = {i18n} />
 
               <h1>Danilo Guimarães Justino Lemes</h1>
 

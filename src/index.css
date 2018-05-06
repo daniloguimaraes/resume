@@ -12,8 +12,13 @@ body {
    .printOnly {
       display : block;
    }
+   
+   #toolbar {
+      display: none;
+   }
+  
 }
 
-.language-bar {
+.toolbar {
   text-align: right
 }
