@@ -10,12 +10,16 @@ class Education extends Component {
             {
              (t, { i18n }) => (
                 <div>
-                <h2>{t('education.title')}</h2>
+                <h2>{t('education.title')} <hr/></h2>
 
                   <ul>
-                    <li><b>2009-2014</b>: {t('education.graduation.title')}, <a href="https://www.ufg.br/"><Trans i18nKey="education.graduation.institution"></Trans></a>.</li>
+                    <li>
+                        <b>{t('education.graduation.startYear')}-{t('education.graduation.endYear')}</b>: {t('education.graduation.title')}, <a href={t('education.graduation.link')}><Trans i18nKey="education.graduation.institution"></Trans></a>.
+                    </li>
                   
-                    <li><b>2016-2017</b>: {t('education.postGraduation.title')}, <a href="http://www.unialfa.com.br"><Trans i18nKey="education.postGraduation.institution"></Trans></a>.</li>
+                    <li>
+                        <b>2016-2017</b>: {t('education.postGraduation.title')}, <a href={t('education.postGraduation.link')}><Trans i18nKey="education.postGraduation.institution"></Trans></a>.
+                    </li>
                   </ul>
               </div>
             )

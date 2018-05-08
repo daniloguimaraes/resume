@@ -5,12 +5,12 @@ body {
 }
 
 .printOnly {
-  display : none;
+  display: none;
 }
 
 @media print {
    .printOnly {
-      display : block;
+      display: block;
    }
    
    #toolbar {
@@ -21,4 +21,13 @@ body {
 
 .toolbar {
   text-align: right
+}
+
+#divThisResumeCanBeFound {
+  text-align: center,
+}
+
+.QRCode {
+  text-align:right;
+  height: 80px;
 }

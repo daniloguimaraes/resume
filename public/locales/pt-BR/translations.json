@@ -5,10 +5,9 @@
   },
 
   "personal": {
+    "name" : "Danilo Guimarães Justino Lemes",
     "address" : {
-      "title" : "Goiânia, GO - Brasil",
-
-      "zipCode" : "CEP"
+      "title" : "Goiânia, GO - Brasil"
     }
   },
 
@@ -19,12 +18,14 @@
       "title" : "Bacharelado em Engenharia de Software",
       "institution" : "Universidade Federal de Goiás",
       "startYear": 2009,
-      "endYear" : 2014
+      "endYear" : 2014,
+      "link": "https://www.ufg.br/"
     },
     
     "postGraduation" : {
       "title" : "Pós-Graduação em Arquitetura e Engenharia de Software",
-      "institution" : "UNIALFA - Centro Universitário Alves Faria"
+      "institution" : "UNIALFA - Centro Universitário Alves Faria",
+      "link" : "http://www.unialfa.com.br" 
     }
   },
 
@@ -38,9 +39,38 @@
   "qualifications" : {
     "title" : "Qualificações",
     "props" : [
-      "quali 1",
-      "quali 2",
-      "quali 3"
+      "Proeficiência profissional em Inglês.",
+      "Mais de 7 anos de experiência comprovada na plataforma Java (6, 7 e 8).",
+      "Teste de software com JUnit, AssertJ, Mockito, EasyMock, Selenium, Karma e Protractor.",
+      "Cobertura de testes com Cobertura, JaCoCo e EMMA.",
+      "Webservices (SOAP 1.2 e RESTful)",
+      "ORM com Hibernate e JPA 1.1 / 2.0",
+      "JSF com bibliotecas Richfaces e Primefaces.",
+      "Desenvolvimento Front-end com AngularJS, Bootstrap e HTML5.",
+      "Spring Framework: Core, Data JPA, Boot, Integration, Batch, MVC e Spring Tool Suit (STS).",
+      "Eclipse IDE Galileo, Indigo, Juno, Kepler, Luna, Mars e Neon;",
+      "Netbeans IDE 6.0+, 7.0+,.",
+      "Jetbrains suite 13+: intelliJ IDEA, Webstorm, DataGrip e Toolbox.",
+      "SQL com PostgreSQL 7.x, 8.x, 9.x; Oracle 11g; SQL Server 2005, 2008, 2012.",
+      "NoSQL com MongoDB e Redis.",
+      "XMPP com Openfire (servidor, tanto instalação quanto configuração) e Smack (Java API).",
+      "Apache Maven 2 e 3.",
+      "Repositório de artefatos com Nexus e Artifactory.",
+      "Continuous integration com Jenkins CI.",
+      "Análise estática de código com Sonar, FindBugs e JSLint.",
+      "XML, XSD, XSTL, OXM (JAXB, Apache XMLBeans, dom4j, w3c DOM).",
+      "Template engine com Velocity e Thymeleaf.",
+      "Agile: Scrum e Kanban (teoria e prática)",
+      "Automação de tarefas com Apache Ant.",
+      "Servlet container com Apache Tomcat 6, 7 e 8.",
+      "Source control management com Subversion e Git.",
+      "Geração de relatórios com JasperReport e edição com iReport/Jasperstudio.",
+      "Redmine: instalação, set-up, treinamento, manutenção e plug-ins.",
+      "Microsoft Office (Word, Excel, PowerPoint), OpenOffice, Google Apps e OneDrive.",
+      "Conhecimento básico na plataforma Android .",
+      "Conhecimento básico nas linguagens de programação C/C++.",
+      "Conhecimento básico na linguagem de programação Kotlin.",
+      "Conhecimento básico em Adobe Photoshop;"
     ]
   }
 }

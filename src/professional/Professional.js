@@ -9,7 +9,7 @@ class Professional extends Component {
             {
                 (t, { i18n }) => (
                     <div>
-                    <h2>{t('professional.title')}</h2>
+                    <h2>{t('professional.title')} <hr/></h2>
     
                       <blockquote>
                         <p>

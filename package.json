@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "flag-icon-css": "^3.0.0",
     "gh-pages": "^1.1.0",
     "i18next": "^11.2.3",
     "i18next-browser-languagedetector": "^2.0.0",

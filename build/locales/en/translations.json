@@ -1,15 +1,43 @@
 {
-  "address" : {
-      "zipCode" : "CEP"
+  "general" : {
+    "print" : "This resume can be found here"
   },
+
+  "personal": {
+    "address" : {
+      "title" : "Goiânia Area, GO - Brazil",
+      "zipCode" : "CEP"
+    }
+  },
+
   "education" : {
     "title" : "Education",
-    "ufg" : "Federal University of Goiás",
-    "graduation" : "Bachelor in Science of Software Engineering",
-    "alfa" : "UNIALFA - Centro Universitário Alves Faria",
-    "postGraduation" : "Pós-Graduação em Arquitetura e Engenharia de Software"
+    "graduation" : {
+      "title" :"Bachelor in Science of Software Engineering",
+      "institution" : "Federal University of Goiás"
+    },
+    
+    "postGraduation" : {
+      "title" : "Post-Graduation in Software Architecture and Software Engineering",
+      "institution" : "UNIALFA University"
+    }
   },
-  "experience" : {
-      "oobj" : "Oobj Tecnologia da Informação"
+
+  "professional" : {
+    "title" : "Professional",
+    "experience" : {
+        "oobj" : "Oobj IT"
+    }
+  },
+
+  "qualifications" :  {
+    "title" : "Qualifications",
+    "props": [
+      "quali 1",
+      "quali 2",
+      "quali 3"
+    ]
   }
+
+  
 }
