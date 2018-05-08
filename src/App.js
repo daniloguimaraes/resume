@@ -34,15 +34,15 @@ typography.injectStyles();
 class App extends Component {
   render() {
     
-    console.log('hello, computer', I18n);
     return (
       <I18n ns="translations">
         {
           (t, { i18n }) => (
             <div className="App">
-
               <Toolbar i18n = {i18n} />
 
+              <br/>
+              
               <Personal i18n = {i18n} />
  
 
