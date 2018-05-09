@@ -11,6 +11,11 @@
     }
   },
 
+  "goals" : {
+    "title" : "Objetivos",
+    "description" : "Estes são os meus objetivos"
+  },
+
   "education" : {
     "title" : "Formação Acadêmica",
     

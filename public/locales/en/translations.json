@@ -11,6 +11,11 @@
     }
   },
 
+  "goals" : {
+    "title" : "Goals",
+    "description" : "This is my goals:"
+  },
+
   "education" : {
     "title" : "Education",
     "graduation" : {

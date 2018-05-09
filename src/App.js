@@ -3,6 +3,7 @@ import { I18n } from 'react-i18next';
 
 import Toolbar from './toolbar/Toolbar';
 import Personal from './personal/Personal';
+import Goals from './goals/Goals';
 import Education from './education/Education';
 import Professional from './professional/Professional';
 import Qualifications from './qualifications/Qualifications';
@@ -47,6 +48,11 @@ class App extends Component {
 
               <Personal i18n = {i18n} />
  
+              <br/>
+
+              <Goals i18n = {i18n} />
+
+              <br/>
 
               <Education i18n = {i18n}/>
             
