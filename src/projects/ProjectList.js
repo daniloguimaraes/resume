@@ -12,15 +12,14 @@ class ProjectList extends Component {
             <ul>
                 {
                     this.props.data.map(function(project, index) {
-                        let content = "<h4>"+ project.title + "</h4>"
+                        let content = "<h3>"+ project.title + "</h3>"
                                 + "<p>" + project.description + "</p>";
 
                         if (project.link) {
                             content += "<p> Link: <a href=\"" + project.link + "\">" + project.link + "</a></p>";
                         }
 
-                        return <li key={index} dangerouslySetInnerHTML={{__html: content}}>
-                        </li>
+                        return <li key={index} dangerouslySetInnerHTML={{__html: content}}></li>
                     })
                 }
             </ul>

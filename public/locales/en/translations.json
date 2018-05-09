@@ -72,6 +72,7 @@
       "Basic knowledge of <b>Adobe Photoshop</b>;"
     ]
   },
+
   "events" : {
     "title": "External Activities, Events, Lectures etc",
     "array" : [
@@ -87,6 +88,7 @@
       "<b>PMI Goiânia Chapter</b> - Goiânia, Goiás, Brazil - 2016"
     ]
   },
+
   "projects": {
     "title" : "Projects",
     "array" : [
@@ -96,9 +98,20 @@
         "link": "http://github.com/oobj/nexus-rest-client"
       },
       {
-        "title": "Nexus Rest Client 2",
-        "description" : "A simple Java library to query Maven artifacts on Sonatype Nexus 2.x"
-        
+        "title": "Oobj DFe Model",
+        "description" : "Restructuring the Oobj's main product database schema, remodeling both database and softwares. Changes aiming scalability, performance e easy of maintenence."
+      },
+      {
+        "title" : "Oobj Sync",
+        "description" : "Chat software built with XMPP for automatic update and controlling customers' installations"
+      },
+      {
+        "title" : "Oobj Monitor",
+        "description": "Refactoring an JSF with Richfaces web application to AngularJS and Java"
+      },
+      {
+        "title": "Oobj DFe Vaccine API",
+        "description": "Library for taxes analysis of NF-e (Brazilian invoice document)"
       }
     ]
   }

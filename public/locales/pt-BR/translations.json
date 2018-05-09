@@ -73,6 +73,7 @@
       "Conhecimento básico em <b>Adobe Photoshop</b>"
     ]
   },
+
   "events" : {
     "title": "Atividades externas, Eventos, Palestras, Congressos e correlatos",
     "array": [
@@ -88,6 +89,7 @@
       "<b>PMI Goiânia Chapter</b> - Goiânia, Goiás, Brasil - 2016."
     ]
   },
+
   "projects": {
     "title" : "Projetos",
     "array" : [
@@ -97,11 +99,23 @@
         "link": "http://github.com/oobj/nexus-rest-client"
       },
       {
-        "title": "Nexus Rest Client",
-        "description" : "Project 2 muito loko",
-        "link": "http://github.com/oobj/nexus-rest-client"
-        
+        "title": "Oobj DFe Model",
+        "description" : "Reestruturação do banco de dados do principal produto da Oobj, remodelando não apenas o banco mas também os softwares. Mudanças visando escalabilidade, performance e facilidade de manutenção."
+      },
+      {
+        "title" : "Oobj Sync",
+        "description" : "Software de chat com XMPP para controle e atualização automática de instalações dos clientes"
+      },
+      {
+        "title" : "Oobj Monitor",
+        "description": "Refactoring de uma aplicação JSF com Richfaces para AngularJS e Java"
+      },
+      {
+        "title": "Oobj DFe Vaccine API",
+        "description": "Biblioteca para diagnóstico tributário de XML de NF-e"
       }
     ]
   }
+
+
 }
