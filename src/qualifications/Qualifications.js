@@ -5,8 +5,6 @@ import QualificationsList from "./QualificationsList";
 class Qualifications extends Component {
 
     render() {
-        //const {t, i18n} = this.props;
-
         return(
             <I18n ns="translations"> 
             {
@@ -14,7 +12,7 @@ class Qualifications extends Component {
                     <div>
                         <h2>{t('qualifications.title')} <hr/></h2>
 
-                        <QualificationsList data = {t('qualifications.props', {returnObjects:true})} />
+                        <QualificationsList data = {t('qualifications.array', {returnObjects:true})} />
                     </div> 
                 )
             }

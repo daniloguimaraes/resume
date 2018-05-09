@@ -38,7 +38,7 @@
 
   "qualifications" : {
     "title" : "Qualificações",
-    "props" : [
+    "array" : [
       "Proeficiência profissional em Inglês.",
       "Mais de 7 anos de experiência comprovada na plataforma Java (6, 7 e 8).",
       "Teste de software com JUnit, AssertJ, Mockito, EasyMock, Selenium, Karma e Protractor.",
@@ -71,6 +71,21 @@
       "Conhecimento básico nas linguagens de programação C/C++.",
       "Conhecimento básico na linguagem de programação Kotlin.",
       "Conhecimento básico em Adobe Photoshop;"
+    ]
+  },
+  "events" : {
+    "title": "Atividades externas, Eventos, Palestras, Congressos e correlatos",
+    "array": [
+      "<b>CBSoft: Congresso Brasileiro de Software</b> - Maceió, Alagoas, Brasil, 2014.",
+      "<b>Jornada Goiana em Engenharia de Software</b> – Goiânia, Goiás, Brasil - 2009, 2010, 2011, 2012 e 2014.",
+      "<b>Qcon SP</b> – São Paulo, São Paulo, Brasil - 2012 e 2013.",
+      "<b>TDC Goiânia</b> (trilhas Agile, empreendedorismo, testes e Java) – Goiânia, Goiás, Brasil - 2011 and 2012.",
+      "<b>Android Bootcamp II</b> - Goiânia, Goiás, Brasil - 2012.",
+      "<b>Startup Weekend Goiânia</b> - Goiânia, Goiás, Brasil - 2012",
+      "<b>Agile Brasil</b> - Brasília, Distrito Federal, Brasil - 2013.",
+      "<b>Flisol – Fórum Latino-Americano de Instalação de Software Livre</b> – Goiânia, Goiás, Brasil - 2010.",
+      "<b>FGSL: Fórum Goiano de Software Livre</b> – Goiânia, Goiás, Brasil - 2009.",
+      "<b>PMI Goiânia Chapter</b> - Goiânia, Goiás, Brasil - 2016"
     ]
   }
 }

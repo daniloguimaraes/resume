@@ -1,11 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-class QualificationsList extends Component {
-
-    constructor(props) {
-        super(props);
-        this.props = props;
-    }
+class EventsList extends Component {
 
     render() {
         return(
@@ -18,7 +13,6 @@ class QualificationsList extends Component {
             </ul>
         );
     }
-
 }
 
-export default QualificationsList;
+export default EventsList;

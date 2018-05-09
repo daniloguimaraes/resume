@@ -6,6 +6,7 @@ import Personal from './personal/Personal';
 import Education from './education/Education';
 import Professional from './professional/Professional';
 import Qualifications from './qualifications/Qualifications';
+import Events from './events/Events';
 
 import Typography from "typography";
 import moragaTheme from "typography-theme-moraga";
@@ -42,7 +43,7 @@ class App extends Component {
               <Toolbar i18n = {i18n} />
 
               <br/>
-              
+
               <Personal i18n = {i18n} />
  
 
@@ -55,6 +56,10 @@ class App extends Component {
               <br/>
              
               <Qualifications i18n = {i18n} />
+
+              <br/>
+
+              <Events i18n = {i18n} />
 
             </div>
           )
