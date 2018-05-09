@@ -1,14 +1,19 @@
 {
   "general" : {
-    "print": "Este curriculo pode ser encontrado em"
+    "thisResumeCanBeFound": "Este curriculo pode ser encontrado em",
+    "print" : "Imprimir"
   },
 
   "personal": {
+    "name" : "Danilo Guimarães Justino Lemes",
     "address" : {
-      "title" : "Goiânia, GO - Brasil",
-
-      "zipCode" : "CEP"
+      "title" : "Goiânia, GO - Brasil"
     }
+  },
+
+  "goals" : {
+    "title" : "Objetivos",
+    "description" : "Estes são os meus objetivos"
   },
 
   "education" : {
@@ -18,12 +23,14 @@
       "title" : "Bacharelado em Engenharia de Software",
       "institution" : "Universidade Federal de Goiás",
       "startYear": 2009,
-      "endYear" : 2014
+      "endYear" : 2014,
+      "link": "https://www.ufg.br/"
     },
     
     "postGraduation" : {
       "title" : "Pós-Graduação em Arquitetura e Engenharia de Software",
-      "institution" : "UNIALFA - Centro Universitário Alves Faria"
+      "institution" : "UNIALFA - Centro Universitário Alves Faria",
+      "link" : "http://www.unialfa.com.br" 
     }
   },
 
@@ -36,10 +43,84 @@
 
   "qualifications" : {
     "title" : "Qualificações",
-    "props" : [
-      "quali 1",
-      "quali 2",
-      "quali 3"
+    "array" : [
+      "Proeficiência profissional em <b>Inglês</b>.",
+      "Mais de 7 anos de experiência comprovada na plataforma <b>Java</b> (6, 7 e 8).",
+      "Teste de software com <b>JUnit, AssertJ, Mockito, EasyMock, Selenium, Karma</b> e <b>Protractor</b>.",
+      "Cobertura de testes com <b>Cobertura, JaCoCo</b> e <b>EMMA</b>.",
+      "<b>Webservices</b> (SOAP 1.2 e RESTful)",
+      "ORM com <b>Hibernate</b> e <b>JPA 1.1 / 2.0</b>",
+      "<b>JSF</b> com bibliotecas Richfaces e Primefaces.",
+      "Desenvolvimento Front-end com <b>AngularJS, React, Bootstrap</b> e <b>HTML5</b>.",
+      "<b>Spring Framework</b>: Core, Data JPA, Boot, Integration, Batch, MVC e Spring Tool Suit (STS).",
+      "<b>Eclipse IDE</b> Galileo, Indigo, Juno, Kepler, Luna, Mars e Neon;",
+      "<b>Netbeans IDE</b> 6.0+, 7.0+,.",
+      "<b>Jetbrains suite 13+</b>: intelliJ IDEA, Webstorm, DataGrip e Toolbox.",
+      "<b>SQL</b> com PostgreSQL 7.x, 8.x, 9.x; Oracle 11g; SQL Server 2005, 2008, 2012.",
+      "<b>NoSQL</b> com MongoDB e Redis.",
+      "<b>XMPP</b> com Openfire (servidor, tanto instalação quanto configuração) e Smack (Java API).",
+      "<b>Apache Maven</b> 2 e 3.",
+      "Repositório de artefatos com <b>Nexus</b> e <b>Artifactory</b>.",
+      "Integração contínua com <b>Jenkins CI</b>.",
+      "Análise estática de código com <b>Sonar, FindBugs</b> e <b>JSLint/JSHint</b>.",
+      "<b>XML</b>, XSD, XSTL, OXM (JAXB, Apache XMLBeans, dom4j, w3c DOM).",
+      "Template engine com <b>Velocity</b> e <b>Thymeleaf</b>.",
+      "<b>Agile</b>: Scrum e Kanban (teoria e prática)",
+      "Automação de tarefas com <b>Apache Ant</b>.",
+      "Servlet container com <b>Apache Tomcat</b> 6, 7 e 8.",
+      "Source control management com <b>Subversion</b> e <b>Git</b>.",
+      "Geração de relatórios com <b>JasperReport</b> e edição com <b>iReport/Jasperstudio</b>.",
+      "<b>Redmine</b>: instalação, set-up, treinamento, manutenção e plug-ins.",
+      "Microsoft <b>Office</b> (Word, Excel, PowerPoint), <b>OpenOffice, Google Apps</b> e <b>OneDrive</b>.",
+      "Conhecimento básico na plataforma <b>Android</b>.",
+      "Conhecimento básico nas linguagens de programação <b>C/C++</b>.",
+      "Conhecimento básico na linguagem de programação <b>Kotlin</b>.",
+      "Conhecimento básico em <b>Adobe Photoshop</b>"
+    ]
+  },
+
+  "events" : {
+    "title": "Atividades externas, Eventos, Palestras, Congressos e correlatos",
+    "array": [
+      "<b>CBSoft: Congresso Brasileiro de Software</b> - Maceió, Alagoas, Brasil - 2014.",
+      "<b>Jornada Goiana em Engenharia de Software</b> – Goiânia, Goiás, Brasil - 2009, 2010, 2011, 2012 e 2014.",
+      "<b>Qcon SP</b> – São Paulo, São Paulo, Brasil - 2012 e 2013.",
+      "<b>TDC Goiânia</b> (trilhas Agile, empreendedorismo, testes e Java) – Goiânia, Goiás, Brasil - 2011 e 2012.",
+      "<b>Android Bootcamp II</b> - Goiânia, Goiás, Brasil - 2012.",
+      "<b>Startup Weekend Goiânia</b> - Goiânia, Goiás, Brasil - 2012",
+      "<b>Agile Brasil</b> - Brasília, Distrito Federal, Brasil - 2013.",
+      "<b>Flisol – Fórum Latino-Americano de Instalação de Software Livre</b> – Goiânia, Goiás, Brasil - 2010.",
+      "<b>FGSL: Fórum Goiano de Software Livre</b> – Goiânia, Goiás, Brasil - 2009.",
+      "<b>PMI Goiânia Chapter</b> - Goiânia, Goiás, Brasil - 2016."
+    ]
+  },
+
+  "projects": {
+    "title" : "Projetos",
+    "array" : [
+      {
+        "title": "Nexus Rest Client",
+        "description" : "Uma biblioteca em Java para fazer query em artefatos Maven hospedados no Sonatype Nexus 2.x",
+        "link": "http://github.com/oobj/nexus-rest-client"
+      },
+      {
+        "title": "Oobj DFe Model",
+        "description" : "Reestruturação do banco de dados do principal produto da Oobj, remodelando não apenas o banco mas também os softwares. Mudanças visando escalabilidade, performance e facilidade de manutenção."
+      },
+      {
+        "title" : "Oobj Sync",
+        "description" : "Software de chat com XMPP para controle e atualização automática de instalações dos clientes"
+      },
+      {
+        "title" : "Oobj Monitor",
+        "description": "Refactoring de uma aplicação JSF com Richfaces para AngularJS e Java"
+      },
+      {
+        "title": "Oobj DFe Vaccine API",
+        "description": "Biblioteca para diagnóstico tributário de XML de NF-e"
+      }
     ]
   }
+
+
 }
