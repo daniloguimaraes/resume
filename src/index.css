@@ -20,7 +20,8 @@ body {
 }
 
 .toolbar {
-  text-align: right
+  position: fixed;
+  text-align: right;
 }
 
 #divThisResumeCanBeFound {

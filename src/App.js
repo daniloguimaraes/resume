@@ -7,6 +7,7 @@ import Education from './education/Education';
 import Professional from './professional/Professional';
 import Qualifications from './qualifications/Qualifications';
 import Events from './events/Events';
+import Projects from './projects/Projects';
 
 import Typography from "typography";
 import moragaTheme from "typography-theme-moraga";
@@ -60,6 +61,10 @@ class App extends Component {
               <br/>
 
               <Events i18n = {i18n} />
+
+              <br/>
+
+              <Projects i18n = {i18n} />
 
             </div>
           )

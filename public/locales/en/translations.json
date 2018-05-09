@@ -86,6 +86,21 @@
       "<b>FGSL: Goiás' Free Software Forum</b> (In Portuguese, Fórum Goiano de Software Livre) – Goiânia, Goiás, Brazil - 2009.",
       "<b>PMI Goiânia Chapter</b> - Goiânia, Goiás, Brazil - 2016"
     ]
+  },
+  "projects": {
+    "title" : "Projects",
+    "array" : [
+      {
+        "title": "Nexus Rest Client",
+        "description" : "A simple Java library to query Maven artifacts on Sonatype Nexus 2.x",
+        "link": "http://github.com/oobj/nexus-rest-client"
+      },
+      {
+        "title": "Nexus Rest Client 2",
+        "description" : "A simple Java library to query Maven artifacts on Sonatype Nexus 2.x"
+        
+      }
+    ]
   }
 
   
