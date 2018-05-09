@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import { I18n } from 'react-i18next';
+import React, { Component } from "react";
+import { I18n } from "react-i18next";
 
-import Toolbar from './toolbar/Toolbar';
-import Personal from './personal/Personal';
-import Goals from './goals/Goals';
-import Education from './education/Education';
-import Professional from './professional/Professional';
-import Qualifications from './qualifications/Qualifications';
-import Events from './events/Events';
-import Projects from './projects/Projects';
+import Toolbar from "./toolbar/Toolbar";
+import Personal from "./personal/Personal";
+import Goals from "./goals/Goals";
+import Education from "./education/Education";
+import Professional from "./professional/Professional";
+import Qualifications from "./qualifications/Qualifications";
+import Events from "./events/Events";
+import Projects from "./projects/Projects";
 
 import Typography from "typography";
 import moragaTheme from "typography-theme-moraga";
 import WebFont from "webfontloader";
-import './App.css';
+import "./App.css";
 
 WebFont.load({
   google: {
@@ -36,49 +36,44 @@ typography.injectStyles();
 
 class App extends Component {
   render() {
-    
     return (
       <I18n ns="translations">
-        {
-          (t, { i18n }) => (
-            <div className="App">
-              <Toolbar i18n = {i18n} />
+        {(t, { i18n }) => (
+          <div className="App">
+            <Toolbar i18n={i18n} />
 
-              <br/>
+            <br />
 
-              <Personal i18n = {i18n} />
- 
-              <br/>
+            <Personal i18n={i18n} />
 
-              <Goals i18n = {i18n} />
+            <br />
 
-              <br/>
+            <Goals i18n={i18n} />
 
-              <Education i18n = {i18n}/>
-            
-              <br/>
+            <br />
 
-              <Professional i18n = {i18n} />
+            <Education i18n={i18n} />
 
-              <br/>
-             
-              <Qualifications i18n = {i18n} />
+            <br />
 
-              <br/>
+            <Professional i18n={i18n} />
 
-              <Events i18n = {i18n} />
+            <br />
 
-              <br/>
+            <Qualifications i18n={i18n} />
 
-              <Projects i18n = {i18n} />
+            <br />
 
-            </div>
-          )
-        }
+            <Events i18n={i18n} />
+
+            <br />
+
+            <Projects i18n={i18n} />
+          </div>
+        )}
       </I18n>
     );
   }
 }
 
 export default App;
-

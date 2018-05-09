@@ -25,11 +25,8 @@ class Personal extends Component {
                         </blockquote>
                     
                         <img src={logo} className="App-logo" alt="logo" />
-
-                       
                     </div>
                 )
-
             }
             </I18n>
         )
