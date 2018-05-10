@@ -6,8 +6,17 @@ import en from "./locales/en/translations.json";
 import ptBr from "./locales/pt-BR/translations.json";
 
 let resBundle = {
-  en: {
+  "en": {
     translations: en
+  },
+  "en-US" : {
+    translations : en
+  },
+  "en-GB" : {
+    translations : en
+  },
+  "pt" : {
+    translations : ptBr
   },
   "pt-BR": {
     translations: ptBr
