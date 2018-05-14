@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { I18n } from "react-i18next";
+import Experience from "./Experience";
 
 class Professional extends Component {
   render() {
@@ -10,13 +11,10 @@ class Professional extends Component {
             <h2>
               {t("professional.title")} <hr />
             </h2>
-            <blockquote>
-              <p>
-                Hello. It's me
-                <br />
-              </p>
-            </blockquote>
-            Oobj
+
+            <Experience
+              data={t("professional.experiences", { returnObjects: true })}
+            />
           </div>
         )}
       </I18n>

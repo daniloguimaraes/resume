@@ -35,9 +35,33 @@
 
   "professional" : {
     "title" : "Professional",
-    "experience" : {
-        "oobj" : "Oobj IT"
-    }
+    "companyDescription" : "Company description",
+    "roles" : "Roles",
+    "mainActivities" : "Main activities",
+    "experiences" : [
+      {
+        "duration" : "Since Jan 2011",
+        "company" : "Oobj IT",
+        "companyDescription" : "A pioneer company on building software solutions to the Brazilian Government Tax System. Specialized in issuing, receiving, storing and sharing fiscal documents like NF-e, NFC-e, MDF-e, CT-e, CT-e OS, CF-e and MF-e.",
+        "roles": "Software Developer, Software Architect, Tech Leader",
+        "mainActivities" : "General maintenance (bugs, improvements, new features, refactoring etc); Tech Leading; Software Architecture; Tech Support Levels 2 and 3; Software documentation; Reverse Engineering (to document based on source-code); software building; Quality Assurance; teaching and training, my staff and other staffs; hiring and firing; internal events organization; continuous integration."
+      },
+      {
+        "duration" : "Sep 2010 - Jan 2011",
+        "company": "Oobj IT",
+        "companyDescription" : "See above",
+        "roles": "Tech Support Analyst",
+        "mainActivities" : "Tech Support Level 1 and 2; installation; customer and new employees training; user documentation."
+      },
+      {
+        "duration" : "Jan 2010 - Sep 2010",
+        "company": "STC, Federal University of Goiás",
+        "companyDescription" : "The Software Tech Center (In Portuguese, Centro Tecnológico de Software) was a research group created to 1) provide students experience in software ratification and software testing. 2) allow Brazilian companies which develop PAF-ECF applications (Tax Application Program – Tax Coupon Issuer) to have their products approved and homologated by the Brazilian Internal Revenue Service.",
+        "roles": "Software Tester",
+        "mainActivities" : "Contact with client, scheduling; analysis and improvement of the tests route; software testing; homologation follow-up; writing an approval report."
+      }
+
+    ]
   },
 
   "qualifications" :  {

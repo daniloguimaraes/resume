@@ -36,9 +36,32 @@
 
   "professional" : {
     "title" : "Experiência profissional",
-    "experience" : {
-      "oobj" : "Oobj Tecnologia da Informação"
-    }
+    "companyDescription" : "Descrição da empresa",
+    "roles" : "Responsabilidades",
+    "mainActivities" : "Principais atividades",
+    "experiences" : [
+      {
+        "duration" : "Desde Jan 2011",
+        "company" : "Oobj Tecnologia da Informação",
+        "companyDescription" : "Empresa pioneira na construção de soluções de software para o sistema de escrituração digital do Governo Brasileiro. Especializada em emissão, recebimento, armazenamento e compartilhamento de documentos fiscais, tais como NF-e, NFC-e, MDF-e, CT-e, CT-e OS, CF-e e MF-e.",
+        "roles": "Software Developer, Software Architect, Tech Leader",
+        "mainActivities" : "Manutenção em geral (bugs, melhorias, novas features, refactoring etc); Líder Técnico; Suporte Técnico níveis 2 e 3; Documentação de software; Engenharia Reversa (documentação baseada em código-fonte); geração de builds para deploy; Quality Assurance; capacitação e treinamentos, tanto da minha equipe quanto de outras equipes; Processo seletivo (contratação e desligamento); organização de eventos internos; Integração contínua."
+      },
+      {
+        "duration" : "Jan 2010 - Set 2010",
+        "company": "Oobj Tecnologia da Informação",
+        "companyDescription" : "Vide acima",
+        "roles": "Analista de Suporte Técnico",
+        "mainActivities" : "Suporte Técnico níveis 1 e 2; instalação, reinstalação e migração; treinamento de clientes e de novos funcionários; confecção de material para treinamento; documentação de usuário." 
+      },
+      {
+        "duration" : "Jan 2010 - Set 2010",
+        "company": "CTS, Universidade Federal de Goiás",
+        "companyDescription" : "O Centro Tecnológico de Software, ou simplesmente CTS, foi um grupo de pesquisa criado para 1) prover experiência em homologação e teste de software aos estudantes de graduação. 2) permitir aos desenvolvedores de PAF-ECF (Programa Aplicativo Fiscal – Emissor de Cupom Fiscal) de todo o Brasil que seus produtos sejam homologados junto à Secretaria de Fazenda/Receita Federal do Brasil.",
+        "roles": "Testador de Software",
+        "mainActivities" : "Contato com clientes; agendamento de homologação; análise e melhorias do roteiro de testes; execução dos casos de testes; acompanhamento de homologação de novos funcionários; elaboração do laudo de homologação."
+      }
+    ]
   },
 
   "qualifications" : {
