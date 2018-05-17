@@ -147,7 +147,7 @@
   },
 
   "references" : {
-    "title" : "References",
+    "title" : "Referências",
     "array" : [
       {
         "name":"Sartre Brasil",
@@ -179,7 +179,7 @@
         "role": "Gerente de Projetos",
         "company" : "CTS (Centro Tecnológico de Software), UFG",  
         "phone" : "+55 62 3521-1181",
-        "email" : "edmungo@inf.ufg.br"
+        "email" : "edmundo@inf.ufg.br"
       }
     ]
   }
