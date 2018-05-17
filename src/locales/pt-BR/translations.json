@@ -1,7 +1,8 @@
 {
   "general" : {
     "thisResumeCanBeFound": "Este curriculo pode ser encontrado em",
-    "print" : "Imprimir"
+    "print" : "Imprimir",
+    "phone" : "Fone"
   },
 
   "personal": {
@@ -141,6 +142,44 @@
       {
         "title": "Oobj DFe Vaccine API",
         "description": "Biblioteca para diagnóstico tributário de XML de NF-e"
+      }
+    ]
+  },
+
+  "references" : {
+    "title" : "References",
+    "array" : [
+      {
+        "name":"Sartre Brasil",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/sartrebrasil",
+        "role": "Gerente de Desenvolvimento",
+        "company" : "Oobj Tecnologia da Informação",
+        "phone" : "+55 62 3086-5750",
+        "email" : "sartre.brasil@oobj.com.br"
+      },
+      {
+        "name":"Gustavo Santana",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/gustavosantanaleite",
+        "role": "Gerente de Operação",
+        "company" : "Oobj Tecnologia da Informação",
+        "phone" : "+55 62 3086-5750",
+        "email" : "gustavo@oobj.com.br"
+      },
+      {
+        "name":"Jonathas Carrijo",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/jonathascarrijo",
+        "role": "CTO e sócio-fundador",
+        "company" : "Oobj Tecnologia da Informação",  
+        "phone" : "+55 62 3086-5750",
+        "email" : "jonathascarrijo@oobj.com.br"
+      },
+      {
+        "name":"Prof. Dr. Edmundo Sérgio Spoto",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/edmundo-spoto-34799227",
+        "role": "Gerente de Projetos",
+        "company" : "CTS (Centro Tecnológico de Software), UFG",  
+        "phone" : "+55 62 3521-1181",
+        "email" : "edmungo@inf.ufg.br"
       }
     ]
   }

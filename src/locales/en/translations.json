@@ -1,7 +1,8 @@
 {
   "general" : {
     "thisResumeCanBeFound" : "This resume can be found here",
-    "print" : "Print"
+    "print" : "Print",
+    "phone" : "Phone"
   },
 
   "personal": {
@@ -141,6 +142,44 @@
       {
         "title": "Oobj DFe Vaccine API",
         "description": "Library for taxes analysis of NF-e (Brazilian invoice document)"
+      }
+    ]
+  },
+
+  "references" : {
+    "title" : "References",
+    "array" : [
+      {
+        "name":"Sartre Brasil",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/sartrebrasil",
+        "role": "Development Manager",
+        "company" : "Oobj IT",
+        "phone" : "+55 62 3086-5750",
+        "email" : "sartre.brasil@oobj.com.br"
+      },
+      {
+        "name":"Gustavo Santana",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/gustavosantanaleite",
+        "role": "Chief Operating Officer",
+        "company" : "Oobj IT",
+        "phone" : "+55 62 3086-5750",
+        "email" : "gustavo@oobj.com.br"
+      },
+      {
+        "name":"Jonathas Carrijo",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/jonathascarrijo",
+        "role": "Co-founder and CTO",
+        "company" : "Oobj IT",  
+        "phone" : "+55 62 3086-5750",
+        "email" : "jonathascarrijo@oobj.com.br"
+      },
+      {
+        "name":"PhD Edmundo Sérgio Spoto",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/edmundo-spoto-34799227",
+        "role": "Project Manager",
+        "company" : "STC (Software Tech Center), UFG",  
+        "phone" : "+55 62 3521-1181",
+        "email" : "edmungo@inf.ufg.br"
       }
     ]
   }
