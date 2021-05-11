@@ -21,7 +21,7 @@ class Personal extends Component {
                 Github:{" "}
                 <a href="https://github.com/daniloguimaraes">daniloguimaraes</a>
                 <br />
-                LinkedIn: <a href="">Danilo Guimarães</a>
+                LinkedIn: <a href="https://www.linkedin.com/in/danilo-guimar%C3%A3es-52a250a9/">Danilo Guimarães</a>
               </p>
             </blockquote>
           </div>
