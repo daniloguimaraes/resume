@@ -42,7 +42,14 @@
     "mainActivities" : "Principais atividades",
     "experiences" : [
       {
-        "duration" : "Desde Jan 2011",
+        "duration" : "Desde Out 2020",
+        "company" : "Dextra",
+        "companyDescription" : "Empresa brasileira pioneira no desenvolvimento de produtos customizados, combinando metodologias de design, desenvolvimento ágil e novas tecnologias para entregar soluções que impulsionam o negócio dos nossos clientes. Alocado no cliente Via (antiga Via Varejo).",
+        "roles": "Senior Software Developer I",
+        "mainActivities" : "API de promoção"
+      },
+      {
+        "duration" : "Jan 2011 - Out 2020",
         "company" : "Oobj Tecnologia da Informação",
         "companyDescription" : "Empresa pioneira na construção de soluções de software para o sistema de escrituração digital do Governo Brasileiro. Especializada em emissão, recebimento, armazenamento e compartilhamento de documentos fiscais, tais como NF-e, NFC-e, MDF-e, CT-e, CT-e OS, CF-e e MF-e.",
         "roles": "Software Developer, Software Architect, Tech Leader",
@@ -69,18 +76,20 @@
     "title" : "Qualificações",
     "array" : [
       "Proeficiência profissional em <b>Inglês</b>.",
-      "Mais de 7 anos de experiência comprovada na plataforma <b>Java</b> (6, 7 e 8).",
-      "Teste de software com <b>JUnit, AssertJ, Mockito, EasyMock, Selenium, Karma</b> e <b>Protractor</b>.",
+      "Mais de 10 anos de experiência comprovada na plataforma <b>Java</b> (6, 7, 8 e 11).",
+      "Teste de software com <b>JUnit 4, JUnit 5, AssertJ, Mockito, EasyMock, Selenium, Karma</b> e <b>Protractor</b>.",
       "Cobertura de testes com <b>Cobertura, JaCoCo</b> e <b>EMMA</b>.",
+      "Cloud computing com AWS: EC2, RDS, S3, ESB, ElastiCache, CloudWatch",
+      "Kubernets com Kustomize e AKS",
       "<b>Webservices</b> (SOAP 1.2 e RESTful)",
       "ORM com <b>Hibernate</b> e <b>JPA 1.1 / 2.0</b>",
       "<b>JSF</b> com bibliotecas Richfaces e Primefaces.",
-      "Desenvolvimento Front-end com <b>AngularJS, React, Bootstrap</b> e <b>HTML5</b>.",
-      "<b>Spring Framework</b>: Core, Data JPA, Boot, Integration, Batch, MVC e Spring Tool Suit (STS).",
+      "Desenvolvimento Front-end com <b>AngularJS, Angular, React, Bootstrap</b> e <b>HTML5</b>.",
+      "<b>Spring Framework</b>: Core, Data JPA, Boot, Integration, Batch, MVC, Cloud e Spring Tool Suit (STS).",
       "<b>Eclipse IDE</b> Galileo, Indigo, Juno, Kepler, Luna, Mars e Neon;",
       "<b>Netbeans IDE</b> 6.0+, 7.0+,.",
       "<b>Jetbrains suite 13+</b>: intelliJ IDEA, Webstorm, DataGrip e Toolbox.",
-      "<b>SQL</b> com PostgreSQL 7.x, 8.x, 9.x; Oracle 11g; SQL Server 2005, 2008, 2012.",
+      "<b>SQL</b> com PostgreSQL 7.x, 8.x, 9.x e 10.x; Oracle 11g; SQL Server 2005, 2008 e 2012.",
       "<b>NoSQL</b> com MongoDB e Redis.",
       "<b>XMPP</b> com Openfire (servidor, tanto instalação quanto configuração) e Smack (Java API).",
       "<b>Apache Maven</b> 2 e 3.",
@@ -150,9 +159,17 @@
     "title" : "Referências",
     "array" : [
       {
+        "name":"Alexandre Paul",
+        "linkedinProfileURI" : "https://www.linkedin.com/in/sartrebrasil",
+        "role": "Líder Técnico",
+        "company" : "Via",
+        "phone" : "",
+        "email" : "alexandre.paul@viavarejo.com.br"
+      },
+      {
         "name":"Sartre Brasil",
         "linkedinProfileURI" : "https://www.linkedin.com/in/sartrebrasil",
-        "role": "Gerente de Desenvolvimento",
+        "role": "Arquiteto de Software",
         "company" : "Oobj Tecnologia da Informação",
         "phone" : "+55 62 3086-5750",
         "email" : "sartre.brasil@oobj.com.br"
@@ -160,7 +177,7 @@
       {
         "name":"Gustavo Santana",
         "linkedinProfileURI" : "https://www.linkedin.com/in/gustavosantanaleite",
-        "role": "Gerente de Operação",
+        "role": "ex-Gerente de Operação",
         "company" : "Oobj Tecnologia da Informação",
         "phone" : "+55 62 3086-5750",
         "email" : "gustavo@oobj.com.br"
