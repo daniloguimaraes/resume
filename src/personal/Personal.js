@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { I18n } from "react-i18next";
-import logo from "../logo.svg";
 
 class Personal extends Component {
   render() {
@@ -25,8 +24,6 @@ class Personal extends Component {
                 LinkedIn: <a href="">Danilo Guimarães</a>
               </p>
             </blockquote>
-
-            <img src={logo} className="App-logo" alt="logo" />
           </div>
         )}
       </I18n>
